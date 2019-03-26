@@ -28,14 +28,14 @@ $ python Train_Step2.py
 ```
 
 ### Test
-The test test reads a special validset or testset mat file and creates a denoised result images as a mat file and a readme.txt file that contains time information. 
+In test step, a mat file of special validset or testset is used as input. The denoised result images and readme file which contains execution time information are created as mat file and txt file, respectively.
 You can run this step of training with the following command:
 ```bash
 $ python Test.py
 ```
 
 ## Dataset
-This repository contains Validset / Testset and just a few training sets. You need to get the full training data to learn. Download the full data from the link follow:
+This repository contains Validset / Testset and few Training sets. You need to get the full Training data to learn. You can download the full Training data from the link follow:
 [NTIRE 2019 Real Image Denoising Challenge - Track 1: Raw-RGB#participate-get-data](https://competitions.codalab.org/competitions/21258#participate-get-data)
 
 >Training dataset path: _./DB/SIDD_Medium_RawData_.
