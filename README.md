@@ -28,7 +28,7 @@ $ python Train_Step2.py
 ```
 
 ### Test
-The test reads a special validset or testset mat file and creates a denoised result images as a mat file and a readme.txt file that contains time information. 
+The test test reads a special validset or testset mat file and creates a denoised result images as a mat file and a readme.txt file that contains time information. 
 You can run this step of training with the following command:
 ```bash
 $ python Test.py
